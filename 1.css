@@ -1,0 +1,255 @@
+@font-face {
+  font-family: heiti;
+  src: url(Adobe-黑体-Std-R.ttf) format("truetype"),
+       url(Adobe-黑体-Std-R.woff) format("woff"),
+       url(Adobe-黑体-Std-R.eot) format("embedded-opentype");
+}
+
+
+
+table.A  {
+  width:316;
+  border-collapse:collapse;
+background-color:#EFB875;
+height:550;
+
+font: size 28px;
+
+}
+#a{
+padding-top:20pt;
+border-top: -1;
+height:90px;
+width:315;
+background-color:#EFB875;
+  font-size:36px;
+text-align:center;
+ color:#725D3D;
+ font-family: microsoft YaHei UI regular;
+}
+.CONTENT {
+  position: absolute;
+  left:316;
+  height:100vh;
+
+  float:right;
+}
+
+#cat1{
+  position: absolute;
+  bottom: 2vh;
+  left:0vw;
+ 
+}
+
+table.A td{
+  padding-top:15pt;
+  padding-left:20pt;
+height:5px;
+  font-size:28px;
+ color:#FFFFFF;	
+float:left;
+z-index:2;
+font-family: microsoft YaHei UI regular;
+
+}
+
+
+
+.wrapper {
+
+    width:1366px;
+    height:768 ;
+}
+
+.SIDE {
+   float:left;
+
+    width: 316;
+  height:100vh;
+background-color:#EFB875;
+
+
+position:absolute;
+}
+
+.foot1{
+  position: absolute;
+  bottom: 19vh;
+  left:17vw;
+}
+.foot2{
+  position: absolute;
+  bottom: 23.87vh;
+  left:19.3vw;
+}
+
+.foot3{
+  position: absolute;
+  bottom: 28.74vh;
+  left:22.22vw;
+  transform:rotate(5deg);
+}
+.foot4{
+  position: absolute;
+  bottom: 33.615vh;
+  left:25.36vw;
+  transform:rotate(10deg);
+}
+.foot5{
+  position: absolute;
+  bottom: 37.317vh;
+  left:28.6vw;
+  transform:rotate(15deg);
+}
+
+.foot6{
+  position: absolute;
+  bottom: 40.630vh;
+  left:31.505vw;
+  transform:rotate(15deg);
+}
+
+.foot7{
+  position: absolute;
+  bottom: 43.55vh;
+  left:34.85vw;
+  transform:rotate(15deg);
+}
+
+.foot8{
+  position: absolute;
+  bottom: 44.917vh;
+  left:38.64vw;
+  transform:rotate(15deg);
+}
+.foot9{
+  position: absolute;
+  bottom: 45.89vh;
+  left:42.66vw;
+  transform:rotate(30deg);
+}
+.foot10{
+  position: absolute;
+  bottom: 46.282vh;
+  left:46.345vw;
+  transform:rotate(60deg);
+}
+.foot11{
+  position: absolute;
+  bottom: 44.333vh;
+  left:49.915vw;
+  transform:rotate(60deg);
+}
+.foot12{
+  position: absolute;
+  bottom: 40.4359vh;
+  left:53.3747vw;
+  transform:rotate(60deg);
+}
+
+.foot13{
+  position: absolute;
+  bottom: 42.38462vh;
+  left:56.7211vw;
+  transform:rotate(15deg);
+}
+.foot14{
+  position: absolute;
+  bottom: 43.74872vh;
+  left:60.51579vw;
+  transform:rotate(10deg);
+}
+.foot15{
+  position: absolute;
+  bottom: 47.06154vh;
+  left:63.75158vw;
+  transform:rotate(10deg);
+}
+.foot16{
+  position: absolute;
+  bottom: 50.95897vh;
+  left:67.2122vw;
+  transform:rotate(5deg);
+}
+
+
+.foot17{
+  position: absolute;
+  bottom: 57vh;
+  left:70vw;
+}
+
+.home{
+  position: absolute;
+  bottom: 66vh;
+  left:71vw;
+}
+
+.cloud_1
+{
+  position: absolute;
+  bottom: 74.76vh;
+  left:74.744vw;
+}
+
+.cloud_2
+{
+  position: absolute;
+  bottom: 77.76vh;
+  left:73.744vw;
+}
+
+.cloud_3
+{
+  position: absolute;
+  bottom: 80.888vh;
+  left:72.307vw;
+}
+
+
+.line1{
+  position: absolute;
+  bottom: 500pt;
+}
+.line2{
+  position: absolute;
+  bottom: 430pt;
+}
+.line3{
+  position: absolute;
+  bottom: 360pt;
+}
+.line4{
+  position: absolute;
+  bottom: 290pt;
+}
+.line5{
+  position: absolute;
+  bottom: 220pt;
+}
+
+.thing1{
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  position: absolute;
+  bottom: 72vh;
+  left:23vw;
+  font-size: 28pt;
+  font-family: microsoft YaHei UI regular;
+  letter-spacing: 3px;
+
+}
+.thing2{
+  -webkit-writing-mode: vertical-rl;
+writing-mode: vertical-rl;
+position: absolute;
+  bottom: 40vh;
+  left:18.78vw;
+  font-size: 28pt;
+  font-family: microsoft YaHei UI regular;
+  letter-spacing: 3px;
+}
+
+
+
