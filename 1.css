@@ -1,56 +1,128 @@
 @font-face {
-  font-family: heiti;
-  src: url(Adobe-黑体-Std-R.ttf) format("truetype"),
-       url(Adobe-黑体-Std-R.woff) format("woff"),
-       url(Adobe-黑体-Std-R.eot) format("embedded-opentype");
+  font-family: 'Adobe_Black_Std_R';
+  src: url('fonts/Adobe.ttf') format("truetype"),
+       url('fonts/Adobe.woff') format("woff"),
+       url('fonts/Adobe.eot') format("embedded-opentype");
 }
 
 
 
 table.A  {
-  width:316;
   border-collapse:collapse;
 background-color:#EFB875;
-height:550;
-
-font: size 28px;
+height:60vh;
+width:17vw;
+font-size 28px;
+font-family: Adobe_Black_Std_R;
 
 }
+
+.sec_list{
+  display:none;
+
+  position: relative;
+  top: -4vh;
+  left: 15.5vw;
+  height: 23vh;
+  width:25vh;
+  font-family: Adobe_Black_Std_R;
+  font-size: 24px;
+  color: #000000;
+  background-color: #8c6239;
+
+  z-index: 2;
+}
+
+.sec_list ul{
+
+margin:-2vh;
+list-style-type: none;
+
+text-align: center;
+
+} 
+
+.sec_list li{
+margin-top:-1vh;
+margin-left:-4vh;
+
+text-align: center;
+  } 
+
+.sec_1:hover{
+  color:black;
+}
+
+.sec_1:hover .sec_list{
+
+  display:block;
+}
+
+.line_w{
+  position: relative;
+  border: none;
+  
+}
+
+.sec_2:hover{
+  color:black;
+}
+
+.sec_2:hover .sec_list{
+
+  display:block;
+}
+
+.sec_3:hover{
+  color:black;
+}
+
+.sec_3:hover .sec_list{
+
+  display:block;
+}
+
+
+
+
 #a{
 padding-top:20pt;
 border-top: -1;
 height:90px;
-width:315;
+width:17vw;
 background-color:#EFB875;
   font-size:36px;
-text-align:center;
+text-align:left;
  color:#725D3D;
- font-family: microsoft YaHei UI regular;
+ font-family: Adobe_Black_Std_R;
 }
 .CONTENT {
   position: absolute;
-  left:316;
+  right:0;
   height:100vh;
-
+  background-color:#F9F0CD;
   float:right;
+  width:80vw;
+  z-index: 1;
 }
 
-#cat1{
+.cat1{
   position: absolute;
-  bottom: 2vh;
+  display: none;
+  bottom: 0vh;
   left:0vw;
- 
+  width:15vw;
 }
 
 table.A td{
   padding-top:15pt;
   padding-left:20pt;
-height:5px;
+height:5vh;
   font-size:28px;
  color:#FFFFFF;	
 float:left;
 z-index:2;
-font-family: microsoft YaHei UI regular;
+font-family: Adobe_Black_Std_R;
 
 }
 
@@ -65,7 +137,7 @@ font-family: microsoft YaHei UI regular;
 .SIDE {
    float:left;
 
-    width: 316;
+    width: 17vw;
   height:100vh;
 background-color:#EFB875;
 
@@ -77,27 +149,37 @@ position:absolute;
   position: absolute;
   bottom: 19vh;
   left:17vw;
+  display:none;
+
 }
 .foot2{
   position: absolute;
   bottom: 23.87vh;
   left:19.3vw;
+  display:none;
+
 }
 
 .foot3{
   position: absolute;
   bottom: 28.74vh;
   left:22.22vw;
+  display:none;
+
   transform:rotate(5deg);
 }
 .foot4{
   position: absolute;
   bottom: 33.615vh;
+  display:none;
+
   left:25.36vw;
   transform:rotate(10deg);
 }
 .foot5{
   position: absolute;
+  display:none;
+
   bottom: 37.317vh;
   left:28.6vw;
   transform:rotate(15deg);
@@ -106,6 +188,8 @@ position:absolute;
 .foot6{
   position: absolute;
   bottom: 40.630vh;
+  display:none;
+
   left:31.505vw;
   transform:rotate(15deg);
 }
@@ -113,6 +197,8 @@ position:absolute;
 .foot7{
   position: absolute;
   bottom: 43.55vh;
+  display:none;
+
   left:34.85vw;
   transform:rotate(15deg);
 }
@@ -120,36 +206,48 @@ position:absolute;
 .foot8{
   position: absolute;
   bottom: 44.917vh;
+  display:none;
+
   left:38.64vw;
   transform:rotate(15deg);
 }
 .foot9{
   position: absolute;
   bottom: 45.89vh;
+  display:none;
+
   left:42.66vw;
   transform:rotate(30deg);
 }
 .foot10{
   position: absolute;
   bottom: 46.282vh;
+  display:none;
+
   left:46.345vw;
   transform:rotate(60deg);
 }
 .foot11{
   position: absolute;
   bottom: 44.333vh;
+  display:none;
+
   left:49.915vw;
   transform:rotate(60deg);
 }
 .foot12{
   position: absolute;
   bottom: 40.4359vh;
+  display:none;
+
   left:53.3747vw;
   transform:rotate(60deg);
 }
 
 .foot13{
   position: absolute;
+  display:none;
+
   bottom: 42.38462vh;
   left:56.7211vw;
   transform:rotate(15deg);
@@ -157,17 +255,23 @@ position:absolute;
 .foot14{
   position: absolute;
   bottom: 43.74872vh;
+  display:none;
+
   left:60.51579vw;
   transform:rotate(10deg);
 }
 .foot15{
   position: absolute;
   bottom: 47.06154vh;
+  display:none;
+
   left:63.75158vw;
   transform:rotate(10deg);
 }
 .foot16{
   position: absolute;
+  display:none;
+
   bottom: 50.95897vh;
   left:67.2122vw;
   transform:rotate(5deg);
@@ -176,6 +280,8 @@ position:absolute;
 
 .foot17{
   position: absolute;
+  display:none;
+
   bottom: 57vh;
   left:70vw;
 }
@@ -183,6 +289,8 @@ position:absolute;
 .home{
   position: absolute;
   bottom: 66vh;
+  display: none;
+
   left:71vw;
 }
 
@@ -191,6 +299,7 @@ position:absolute;
   position: absolute;
   bottom: 74.76vh;
   left:74.744vw;
+  display:none;
 }
 
 .cloud_2
@@ -198,39 +307,45 @@ position:absolute;
   position: absolute;
   bottom: 77.76vh;
   left:73.744vw;
+  display:none;
+
 }
 
 .cloud_3
 {
   position: absolute;
   bottom: 80.888vh;
+  display:none;
+
   left:72.307vw;
 }
 
 
 .line1{
   position: absolute;
-  bottom: 500pt;
+  bottom: 78vh;
 }
 .line2{
   position: absolute;
-  bottom: 430pt;
+  bottom: 68vh;
 }
 .line3{
   position: absolute;
-  bottom: 360pt;
+ bottom: 58vh;
 }
 .line4{
   position: absolute;
-  bottom: 290pt;
+  bottom: 48vh;
 }
 .line5{
   position: absolute;
-  bottom: 220pt;
+  bottom: 38vh
 }
 
 .thing1{
   -webkit-writing-mode: vertical-rl;
+  display: none;
+
   writing-mode: vertical-rl;
   position: absolute;
   bottom: 72vh;
@@ -241,6 +356,7 @@ position:absolute;
 
 }
 .thing2{
+  display: none;
   -webkit-writing-mode: vertical-rl;
 writing-mode: vertical-rl;
 position: absolute;
