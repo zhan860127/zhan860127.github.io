@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清嶼 Tranquil Island</title>
+    <style>
+        :root {
+            --main-color: #a6be8b;
+            --font-base: 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-base);
+            background-color: #fdfaf5;
+            color: #333;
+        }
+
+        header {
+            background-color: var(--main-color);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header img.logo {
+            max-width: 280px;
+            height: auto;
+        }
+
+        section.hero {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        section.hero h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        section.hero p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        section.philosophy {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        section.philosophy p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .carousel img {
+            width: 280px;
+            height: auto;
+            border-radius: 12px;
+            scroll-snap-align: start;
+            flex-shrink: 0;
+        }
+
+        .gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .gallery-item {
+    justify-content: center;
+  }
+}
+
+
+        .works {
+            padding: 2rem 1rem;
+            margin: 2rem;
+        }
+
+        .works h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .works-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+        }
+
+        .work-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .work-card img {
+            
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 0.5rem;
+        }
+
+        .work-card h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0.3rem;
+        }
+
+        .work-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .instagram {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .instagram a {
+            color: var(--main-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/清嶼_logo-07.jpg" alt="Tranquil Island Logo" class="logo">
+    </header>
+
+    <section class="hero">
+        <h1>關於我</h1>
+    </section>
+
+    <section class="philosophy">
+        <p>『美好生活，是與內心寧靜相遇。』<br/>
+            清嶼是於2023年以文創陶瓷產品為主創立的品牌，
+            希望在喧囂的生活中找到一座與世隔絕的島嶼，並把這份美好和寧靜的感覺帶給每一位顧客。
+        </p>
+    </section>
+
+
+
+    <section class="works">
+        <h2>作品介紹</h2>
+        <div class="works-grid">
+            <div class="work-card">
+                <img src="./assets/IMG_1062.jpg" alt="Rain Chain">
+                <h3> 倒地鈴</h3>
+                <p>一縷檀香，落地而起，<br/>
+                    無聲而寧靜，拂過秋後，<br/>
+                    香火的低語，周身盤旋，<br/>
+                    如風鈴般的鐘聲，<br/>
+                    敲打內心深處的柔和，<br/>
+                    藏盡時間的縫隙中。
+                </p>
+            </div>
+            <div class="work-card">
+                <img src="./assets/IMG_1874.jpg" alt="Rain Chain">
+                <h3>蒜苗</h3>
+                <p>當一個人被遺忘，就會變成過去；<br/>
+                    但若留下了感動，回憶就能延續。
+                    
+                </p>
+            </div>
+            <div class="work-card">
+                <img src="./assets/IMG_9302.jpg" alt="Rain Chain">
+                <h3> 守候</h3>
+                <p>盼著月娘能照著你回家的路，<br/>
+                    光影涼了又溫，總留下一盞燈。
+                    
+                    </p>
+             </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-wrapper">
+          <div class="gallery-item left">
+            <img src="./assets/IMG_0896.jpg" alt="Lifestyle Photo 1">
+          </div>
+          <div class="gallery-item right">
+            <img src="./assets/IMG_1230.jpg" alt="Lifestyle Photo 2">
+          </div>
+        </div>
+      </section>
+
+    <section class="instagram">
+        <a href="https://www.instagram.com/tranquil._.island/" target="_blank">@tranquil._.island</a>
+    </section>
+
+    <footer>
+        &copy; 2025 清嶼 Tranquil Island
+    </footer>
+</body>
+
+</html>
